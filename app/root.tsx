@@ -1,8 +1,10 @@
+
 import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
 
 import type { Route } from "./+types/root";
-import "./app.module.css";
+
 import Header from "./shared/components/header";
+import "./app.css";
 import { useEffect } from "react";
 import Footer from "./shared/components/footer";
 
@@ -30,8 +32,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      {/* tailwind dark: variant doesn't work with custom variant such as data-theme="dark" */}
-      {/* <body className="bg-pink-500 dark:bg-green-400" ></body> */}
       <body >
         <Header />
         {children}
