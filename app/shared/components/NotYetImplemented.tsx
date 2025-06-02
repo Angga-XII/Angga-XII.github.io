@@ -1,4 +1,4 @@
-import { Heading1 } from "./textWrapper";
+// import { Heading1 } from "./textWrapper";
 
 const NotYetImplemented = (props:any) => {
   return (

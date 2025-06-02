@@ -43,7 +43,7 @@ const NameComponent = () => {
 
 const TitleComponent = () => {
   return (
-    <div className={clsx(isMobile ? styles["title-mobile"] : styles["title-web"], "flex flex-row items-baseline-last")}>
+    <div className={clsx(isMobile ? styles["title-mobile"] : styles["title-web"])}>
       <motion.div
         className={clsx(isMobile ? "text-[22px] mr-1" : "text-[30px] mr-2", "")}
         {...baseAnimation}

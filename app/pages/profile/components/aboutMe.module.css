@@ -47,27 +47,27 @@
 }
 
 .title {
+  display: flex;
+  flex-direction: row;
+  align-items: last baseline;
   margin-bottom: 2%;
   color: var(--color-black);
-  /* margin: 0; */
   font-weight: 800;
   font-family: var(--base-font);
   letter-spacing: -0.035em;
+  white-space: nowrap;
 }
 
 .title-web {
   composes: title;
-
-  /* font-size: 40px; */
   line-height: 48px;
   text-align: left;
 }
 
 .title-mobile {
   composes: title;
-  /* font-size: 32px; */
   line-height: 48px;
-  text-align: center;
+  justify-content: center;
 }
 
 .exp {
@@ -80,7 +80,6 @@
 
 .exp-web {
   composes: exp;
-
   font-size: 20px;
   text-align: left;
 }
@@ -89,7 +88,6 @@
   composes: exp;
   font-size: 18px;
   line-height: 20px;
-  /* text-align: center; */
 }
 
 .contact-button {
@@ -109,7 +107,7 @@
 }
 
 .web {
-  composes: center-flex-row from "../../../app.module.css";
+  composes: center-flex-row from "../../../app.css";
   position: relative;
   /* background-color: green; */
   height: calc(var(--wrapper-width) / var(--golden-ratio) * 1px);
@@ -117,7 +115,7 @@
 }
 
 .mobile {
-  composes: center-flex-column from "../../../app.module.css";
+  composes: center-flex-column from "../../../app.css";
   /* position: relative; */
   /* background-color: green; */
   height: 100vh;
