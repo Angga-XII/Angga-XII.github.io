@@ -9,7 +9,7 @@ import toggleDarkMode from "../hooks/darkModeHook";
 const TailwindToggle = () => {
 
   return (
-    <div className="container">
+    <div className="">
       <label className="text-dark group flex cursor-pointer items-center select-none">
         <div className="relative">
           <input type="checkbox" className="sr-only" onClick={toggleDarkMode} />
@@ -52,7 +52,7 @@ const Header = () => {
   const isMobile = IsMobileHook();
 
   return (
-    <header className={clsx(styles.header, "shadow-blue-200")}>
+    <header className={clsx(styles.header, "shadow-blue-200 z-50")}>
       <div className="container mx-auto flex items-center justify-between px-2 py-3">
         <TailwindToggle />
         <nav>
