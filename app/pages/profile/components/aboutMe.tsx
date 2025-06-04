@@ -96,7 +96,7 @@ const MobileContainer = () => {
       <div className={clsx(styles.wrapper, "mb-2.5 gap-2")}>
         <img src={ProfilePhoto} width={280} />
       </div>
-      <div className={clsx("z-2 max-w-[90%] flex-2 gap-3 text-center", "mt-[8%] px-[2%]")}>
+      <div className={clsx("max-w-[90%] flex-2 gap-3 text-center", "mt-[8%] px-[2%]")}>
         <HelloComponent />
         <NameComponent />
         <TitleComponent />
@@ -113,7 +113,7 @@ const WebContainer = () => {
       <div className={clsx(styles.wrapper)}>
         <img src={ProfilePhoto} width={420} />
       </div>
-      <div className={clsx("z-2 max-w-[90%] flex-4 gap-3 text-center")}>
+      <div className={clsx("max-w-[90%] flex-4 gap-3 text-center")}>
         <HelloComponent />
         <NameComponent />
         <TitleComponent />
