@@ -9,7 +9,7 @@ import toggleDarkMode from "../hooks/darkModeHook";
 const TailwindToggle = () => {
 
   return (
-    <div className="">
+    <div>
       <label className="text-dark group flex cursor-pointer items-center select-none">
         <div className="relative">
           <input type="checkbox" className="sr-only" onClick={toggleDarkMode} />
