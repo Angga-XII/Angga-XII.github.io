@@ -1,6 +1,6 @@
 // pages/ProfilePage.js
 import IsMobileHook from "../../shared/hooks/isMobileHook";
-import BodyWrapper  from "../../shared/components/bodyWrapper";
+import BodyWrapper  from "../../shared/components/bodyWrapper/bodyWrapper";
 
 import { clsx } from "clsx";
 

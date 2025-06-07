@@ -1,15 +1,15 @@
 import { NavLink } from "react-router";
 import { clsx } from "clsx";
-import IsMobileHook from "../hooks/isMobileHook";
+import IsMobileHook from "../../hooks/isMobileHook";
 import { useState } from "react";
 import DarkIcon from "/assets/images/dark.svg";
 import styles from "./header.module.css";
-import toggleDarkMode from "../hooks/darkModeHook";
+import toggleDarkMode from "../../hooks/darkModeHook";
 
 const TailwindToggle = () => {
 
   return (
-    <div className="">
+    <div>
       <label className="text-dark group flex cursor-pointer items-center select-none">
         <div className="relative">
           <input type="checkbox" className="sr-only" onClick={toggleDarkMode} />

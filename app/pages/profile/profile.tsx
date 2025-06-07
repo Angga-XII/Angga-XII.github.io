@@ -1,6 +1,6 @@
 // pages/ProfilePage.js
 import IsMobileHook from "../../shared/hooks/isMobileHook";
-import BodyWrapper from "../../shared/components/bodyWrapper";
+import BodyWrapper from "../../shared/components/bodyWrapper/bodyWrapper";
 import AboutMe from "./components/aboutMe";
 import Experience from "./components/Experience";
 import ContactMe from "./components/contactMe";
