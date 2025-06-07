@@ -1,11 +1,14 @@
 // import { Heading1 } from "./textWrapper";
+import GlitchText from "../animatedComponent/glitchedText/glitchedText";
+import BodyWrapper from "./bodyWrapper/bodyWrapper";
 
-const NotYetImplemented = (props:any) => {
+const NotYetImplemented = (props: any) => {
   return (
-    <div className="flex-col h-screen justify-center items-center flex text-6xl font-bold text-red-400 font-mono">
-      <h1 className="mb-2">{props.name} is not yet implemented</h1>
-      <h2 className="">Sorry!</h2>
-    </div>
+    <BodyWrapper>
+      <GlitchText speed={3} enableShadows={false} enableOnHover={false} className="bg-black">
+        {props.name} is not yet implemented
+      </GlitchText>
+    </BodyWrapper>
   );
 };
 
