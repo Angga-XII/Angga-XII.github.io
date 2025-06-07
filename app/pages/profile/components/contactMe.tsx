@@ -1,7 +1,7 @@
 import styles from "./contactMe.module.css";
 import * as ConstantString from "../../../shared/utils/constantString";
 import type { Mode } from "../../../shared/utils/modeInterface";
-import * as TextWrapper from "../../../shared/components/textWrapper";
+import * as TextWrapper from "../../../shared/components/textWrapper/textWrapper";
 import GithubIcon from "/assets/images/github.svg";
 import InstaIcon from "/assets/images/instagram.svg";
 import LinkedinIcon from "/assets/images/linkedin.svg";

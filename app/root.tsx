@@ -3,9 +3,8 @@ import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration }
 
 import type { Route } from "./+types/root";
 
-import Header from "./shared/components/header";
+import Header from "./shared/components/header/header";
 import "./app.css";
-import { useEffect } from "react";
 import Footer from "./shared/components/footer";
 
 export const links: Route.LinksFunction = () => [
