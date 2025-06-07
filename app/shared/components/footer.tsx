@@ -7,7 +7,7 @@ const Footer = (props: Mode) => {
   const isMobile = IsMobileHook();
 
   return (
-    <footer className="px-[5%] text-white font-bold font-mono dark:bg-black">
+    <footer className="bg-black px-[5%] font-mono font-bold text-white">
       {`Dev - v${version}`}
     </footer>
   );
